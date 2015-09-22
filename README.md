@@ -20,11 +20,11 @@ boxOfficeMojoMovie('pulpfiction.htm'); // { title: 'Pulp Fiction': domesticGross
 
 ## API
 
-### boxOfficeMojoMovie(input)
+### boxOfficeMojoMovie(movieID)
 
 Returns the data of the Box Office Mojo's movie.
 
-#### input
+#### movieID
 
 Type: `string`
 
