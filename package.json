@@ -1,6 +1,6 @@
 {
   "name": "box-office-mojo-movie",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Get the data of a Box Office Mojo's movie",
   "keywords": [
     "box office mojo",
