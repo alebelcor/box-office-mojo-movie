@@ -1,0 +1,37 @@
+{
+  "name": "box-office-mojo-movie",
+  "version": "0.0.0",
+  "description": "Get the data of a Box Office Mojo's movie",
+  "keywords": [
+    "box office mojo",
+    "movies",
+    "movie title",
+    "movie gross"
+  ],
+  "bugs": "https://github.com/alebelcor/box-office-mojo-movie/issues",
+  "license": "MIT",
+  "author": {
+    "name": "Alejandro Beltrán",
+    "email": "alebelcor@gmail.com",
+    "url": "https://github.com/alebelcor"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alebelcor/box-office-mojo-movie.git"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "dependencies": {
+    "box-office-mojo-movie-gross": "^0.3.0",
+    "box-office-mojo-movie-title": "^0.3.2",
+    "got": "^4.2.0"
+  },
+  "devDependencies": {
+    "ava": "^0.2.0"
+  }
+}
