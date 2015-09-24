@@ -27,7 +27,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "box-office-mojo-movie-gross": "^0.3.0",
+    "box-office-mojo-movie-gross": "^0.3.1",
     "box-office-mojo-movie-title": "^0.3.3",
     "got": "^4.2.0"
   },
