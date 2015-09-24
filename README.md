@@ -22,7 +22,7 @@ boxOfficeMojoMovie('pulpfiction.htm'); // { title: 'Pulp Fiction': domesticGross
 
 ### boxOfficeMojoMovie(movieID)
 
-Returns the data of the Box Office Mojo's movie.
+Returns a promise that will resolve to an object with the data of the Box Office Mojo's movie.
 
 #### movieID
 
