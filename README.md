@@ -15,7 +15,7 @@ npm install --save box-office-mojo-movie
 ```js
 var boxOfficeMojoMovie = require('box-office-mojo-movie');
 
-boxOfficeMojoMovie('pulpfiction.htm'); // { title: 'Pulp Fiction': domesticGross: 107928762 }
+boxOfficeMojoMovie('pulpfiction.htm'); // { title: 'Pulp Fiction', domesticGross: 107928762 }
 ```
 
 ## API
