@@ -1,6 +1,6 @@
 # box-office-mojo-movie
 
-> Get the data of a Box Office Mojo's movie.
+> Get the data of a Box Office Mojo's movie
 
 [![Build Status](https://travis-ci.org/alebelcor/box-office-mojo-movie.svg)](https://travis-ci.org/alebelcor/box-office-mojo-movie)
 
