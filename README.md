@@ -2,7 +2,9 @@
 
 > Get the data of a Box Office Mojo's movie
 
+[![npm version](https://img.shields.io/npm/v/box-office-mojo-movie.svg)](https://npmjs.org/package/box-office-mojo-movie)
 [![Build Status](https://travis-ci.org/alebelcor/box-office-mojo-movie.svg)](https://travis-ci.org/alebelcor/box-office-mojo-movie)
+[![Test Coverage](https://img.shields.io/coveralls/alebelcor/box-office-mojo-movie/master.svg)](https://coveralls.io/github/alebelcor/box-office-mojo-movie)
 
 ## Install
 

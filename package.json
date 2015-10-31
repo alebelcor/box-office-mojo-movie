@@ -24,14 +24,18 @@
     "url": "https://github.com/alebelcor/box-office-mojo-movie.git"
   },
   "scripts": {
-    "test": "ava"
+    "test": "nyc ava",
+    "coveralls": "nyc report --reporter=text-lcov | coveralls"
   },
   "dependencies": {
-    "box-office-mojo-movie-gross": "^0.3.1",
-    "box-office-mojo-movie-title": "^0.3.3",
-    "got": "^4.2.0"
+    "box-office-mojo-movie-gross": "^0.3.3",
+    "box-office-mojo-movie-title": "^0.3.5",
+    "got": "^5.0.0"
   },
   "devDependencies": {
-    "ava": "^0.2.0"
+    "ava": "^0.3.0",
+    "coveralls": "^2.11.4",
+    "is-plain-obj": "^1.0.0",
+    "nyc": "^3.2.2"
   }
 }

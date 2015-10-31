@@ -15,10 +15,6 @@ function getMovieURL(movieID) {
 module.exports = function (movieID) {
   var boxOfficeMojoMovieURL;
 
-  if (typeof movieID !== 'string' || movieID.length === 0) {
-    throw new Error('Movie ID must be a valid string');
-  }
-
   boxOfficeMojoMovieURL = getMovieURL(movieID);
 
   return got(getMovieURL(movieID)).then(function (response) {

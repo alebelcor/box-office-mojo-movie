@@ -1,5 +1,6 @@
 'use strict';
 
+var isPLainObj = require('is-plain-obj');
 var test = require('ava');
 var boxOfficeMojoMovie = require('../');
 
@@ -20,7 +21,7 @@ test('it should return a promise with the movie data', function (t) {
     t.same(['title', 'domesticGross'], movieKeys);
     t.same(2, movieKeys.length);
 
-    t.same('[object Object]', ({}).toString(movie));
+    t.true(isPLainObj(movie));
     t.same('string', typeof movie.title);
     t.same('number', typeof movie.domesticGross);
   });
